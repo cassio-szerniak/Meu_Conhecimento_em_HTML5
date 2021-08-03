@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*O comando border pode ser simplificado em uma linha nesta ordem:
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; */
+            
+            border: 10px solid darkslategray;
+
+            /*O comando padding pode ser simplificado em uma linha nesta ordem:
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;*/
+            
+            padding: 10px;
+
+            /*O comando margin pode ser simplificado em uma linha:
+            
+            O comando 'margin: 20px 20px 20px 20px;' respeitará esta ordem: margin: top right bottom left; .
+            
+            Caso se use apenas 2 parâmetros, (exemplo: margin: 20px 40px;)
+            o valor de bottom será o mesmo que top e left o mesmo que right.
+
+            Caso se use apenas um parâmetro, ex: (margin: 20px) todos ficarão com o mesmo tamanho.
+
+            Ainda temos o comando que define automaticamente a margem o (margin: auto;).
+            Exemplos:
+
+            margin: 20px auto 40px auto; //definirá automaticamente apenas a margem right e left.
+
+            margin: auto;  //definirá automaticamente todas as margens.
+            
+            */
+
+            margin: auto;
+
+            /*O comando outline pode ser simplificado em uma linha nesta ordem:
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+
+            outline: 5px dashed salmon;
+
+        }
+
+        a { /*âncora é inline-level */
+            
+            margin: auto;
+            display: inline-block; /*este comando muda a caraterística normal de um elemento para (inline, inline-block, block, etc) */
+            border: 5px solid dodgerblue;
+            padding: 10px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links, são exemplos de inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
