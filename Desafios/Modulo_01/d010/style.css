@@ -13,13 +13,25 @@
     font-style: normal;
 }
 header {
-    margin: 1000px;
     background-image: linear-gradient(to bottom, rgb(79, 163, 79), rgb(2, 44, 2));
     color: white;
     text-align: center;
     font-family: 'Roboto';
-    margin: 0px;
-    padding: 30px;
+    font-size: x-large;
+    padding: 30px 30px 15px 30px;
+    margin: -8px;   
 }
-header > h1 > {
+header > p {
+    padding-bottom: 30px;
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: rgb(169, 211, 169);
+}
+footer {
+    text-align: center;
 }
