@@ -19,19 +19,73 @@ header {
     font-family: 'Roboto';
     font-size: x-large;
     padding: 30px 30px 15px 30px;
-    margin: -8px;   
+    box-shadow: 0px 4px 11px 0px #000000ba;
+       
 }
 header > p {
     padding-bottom: 30px;
 }
 nav {
     text-align: left;
+    margin-left: -20px;
+    margin-bottom: 0px;
 }
 nav > a {
-    padding-right: 25px;
+    padding: 13px 10px 13px 10px;
+    margin: 0px;
+    border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     color: rgb(169, 211, 169);
+    background-color: rgba(6, 156, 6, 0.535); 
+    
+}
+nav > a:hover {
+    background-color: goldenrod; 
+    color: rgb(6, 84, 6);
+}
+body {
+    background-color: lightgreen;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    padding-top: 0px;
+    margin: 0px 80px;
+    box-shadow: 0px 0px 9px 2px #00000061;
+}
+section {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+section > article {
+    padding: 1px 30px 30px 30px;
+}
+article > h1 {
+    color: rgb(14, 102, 14);
+    font-family: 'idroid';
+    font-size: 1.5em;
+}
+article > h2 {
+    padding-left: 5px;
+    color: rgb(14, 102, 14);
+    font-family: 'idroid';
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.275), white);
+}
+article > p {
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    text-align: justify;
+    text-indent: 30px;
 }
 footer {
     text-align: center;
+    background-color: rgb(4, 85, 4);
+    color: white;
+    
+}
+footer > p {
+    padding: 9px;
+    font-style: italic;
 }
