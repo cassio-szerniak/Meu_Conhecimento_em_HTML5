@@ -1,22 +1,38 @@
-
+@charset "UTF-8";
 
 @font-face {
     font-family: idroid;
     src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
-    font-style: normal;
 }
+
 @font-face {
     font-family: Roboto;
     src: url('fontes/Roboto/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-idroid: 'idroid', cursive;
+}
+
 header {
     background-image: linear-gradient(to bottom, rgb(79, 163, 79), rgb(2, 44, 2));
     color: white;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: var(--fonte-destaque);
     font-size: x-large;
     padding: 30px 30px 15px 30px;
     box-shadow: 0px 4px 11px 0px #000000ba;
@@ -44,7 +60,8 @@ nav > a:hover {
     color: rgb(6, 84, 6);
 }
 body {
-    background-color: lightgreen;
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
     padding: 0px;
     margin: 0px;
 }
