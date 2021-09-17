@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: idroid;
     src: url('fontes/idroid.otf') format('opentype');
@@ -13,8 +15,6 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -24,8 +24,8 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-idroid: 'idroid', cursive;
+    --fonte-destaque: 'Bebas Neue', Helvetica, sans-serif;
+    --fonte-idroid: 'idroid', Helvetica;
 }
 
 header {
