@@ -1,14 +1,10 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: bebas;
-    src: url('../Meu_Conhecimento_em_HTML5/fontes/Bebas/BebasNeue-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
     font-family: idroid;
-    src: url('../Meu_Conhecimento_em_HTML5/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -28,8 +24,8 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'bebas', Arial, Helvetica;
-    --fonte-idroid: 'idroid', sans-serif;
+    --fonte-destaque: 'Bebas Neue', Helvetica, sans-serif;
+    --fonte-idroid: 'idroid', Helvetica;
 }
 
 header {
@@ -37,6 +33,7 @@ header {
     color: white;
     text-align: center;
     font-family: var(--fonte-destaque);
+    font-size: x-large;
     padding: 30px 30px 15px 30px;
     box-shadow: 0px 4px 11px 0px #000000ba;
        
