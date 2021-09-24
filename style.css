@@ -28,6 +28,12 @@
     --fonte-idroid: 'idroid', Helvetica;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 header {
     background-image: linear-gradient(to bottom, rgb(79, 163, 79), rgb(2, 44, 2));
     color: white;
