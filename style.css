@@ -105,6 +105,9 @@ article > p {
     text-align: justify;
     text-indent: 30px;
 }
+article > aside > ul {
+    margin-left: 25px;
+}
 footer {
     text-align: center;
     background-color: rgb(4, 85, 4);
